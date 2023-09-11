@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora de Frigorías</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Frigorías</h1>
+        <div class="input-container">
+            <label for="length">Largo (metros):</label>
+            <input type="number" id="length" placeholder="Ingrese el largo">
+        </div>
+        <div class="input-container">
+            <label for="width">Ancho (metros):</label>
+            <input type="number" id="width" placeholder="Ingrese el ancho">
+        </div>
+        <div class="input-container">
+            <label for="height">Alto (metros):</label>
+            <input type="number" id="height" placeholder="Ingrese el alto">
+        </div>
+        <div class="input-container">
+            <label for="people">Número de personas:</label>
+            <input type="number" id="people" placeholder="Ingrese la cantidad de personas">
+        </div>
+        <div class="input-container">
+            <label for="watts">Consumo de artefactos (WATTS, opcional):</label>
+            <input type="number" id="watts" placeholder="Ingrese el consumo de artefactos">
+        </div>
+        <button id="calculate">Calcular</button>
+        <p class="result">Resultado: <span id="resultValue"></span> Frigorías/hr.</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
